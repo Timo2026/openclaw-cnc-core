@@ -1,0 +1,43 @@
+{
+  "description": "材料价格配置示例 - 实际价格请联系我们获取商业版",
+  "version": "1.0.0",
+  "note": "价格仅供参考，实际价格随市场波动",
+  "materials": {
+    "铝合金": {
+      "6061": {
+        "price_per_kg": 25,
+        "density": 2.7
+      },
+      "7075": {
+        "price_per_kg": 45,
+        "density": 2.8
+      }
+    },
+    "不锈钢": {
+      "304": {
+        "price_per_kg": 18,
+        "density": 7.9
+      },
+      "316": {
+        "price_per_kg": 28,
+        "density": 7.9
+      }
+    },
+    "碳钢": {
+      "45#": {
+        "price_per_kg": 8,
+        "density": 7.8
+      }
+    },
+    "铜合金": {
+      "黄铜H62": {
+        "price_per_kg": 48,
+        "density": 8.5
+      },
+      "紫铜T2": {
+        "price_per_kg": 62,
+        "density": 8.9
+      }
+    }
+  }
+}

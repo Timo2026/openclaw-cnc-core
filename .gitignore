@@ -1,0 +1,64 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+.venv/
+*.egg-info/
+dist/
+build/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Config (用户自定义配置不上传)
+config/surface_pricing.json
+config/material_pricing.json
+config/machining_rules.json
+config/surface_keywords.json
+!config/examples/
+
+# Data (数据不上传)
+data/
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs
+logs/
+*.log
+
+# Environment
+.env
+.env.local
+*.pem
+*.key
+
+# CAD files (用户文件不上传)
+*.STEP
+*.step
+*.STP
+*.stp
+*.iges
+*.igs
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Test
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Temporary
+tmp/
+temp/
+*.tmp

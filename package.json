@@ -1,0 +1,39 @@
+{
+  "name": "openclaw-cnc-core",
+  "version": "1.0.0",
+  "description": "CNC 智能报价系统核心框架 - 基于 OpenClaw",
+  "main": "core/quote_engine.py",
+  "scripts": {
+    "start": "python3.8 core/quote_engine.py",
+    "test": "pytest tests/",
+    "install": "bash scripts/install.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/openclaw/openclaw-cnc-core.git"
+  },
+  "keywords": [
+    "cnc",
+    "quote",
+    "cad",
+    "step",
+    "manufacturing",
+    "openclaw",
+    "ai"
+  ],
+  "author": "OpenClaw Team",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/openclaw/openclaw-cnc-core/issues"
+  },
+  "homepage": "https://github.com/openclaw/openclaw-cnc-core#readme",
+  "engines": {
+    "python": ">=3.8"
+  },
+  "openclaw": {
+    "skill": true,
+    "runtime": "python3.8",
+    "entrypoint": "core.quote_engine",
+    "channels": ["qqbot", "email", "feishu"]
+  }
+}

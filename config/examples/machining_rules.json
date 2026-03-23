@@ -1,0 +1,31 @@
+{
+  "description": "加工费规则配置示例",
+  "version": "1.0.0",
+  "machine_hourly_rates": {
+    "3轴加工中心": 80,
+    "4轴加工中心": 120,
+    "5轴加工中心": 200,
+    "车床": 60,
+    "车铣复合": 150
+  },
+  "complexity_factors": {
+    "简单": 1.0,
+    "中等": 1.3,
+    "复杂": 1.6,
+    "极复杂": 2.0
+  },
+  "quantity_discounts": [
+    {"min_qty": 1, "max_qty": 10, "discount": 0},
+    {"min_qty": 11, "max_qty": 50, "discount": 0.05},
+    {"min_qty": 51, "max_qty": 100, "discount": 0.10},
+    {"min_qty": 101, "max_qty": 500, "discount": 0.15},
+    {"min_qty": 501, "max_qty": null, "discount": 0.20}
+  ],
+  "urgency_surcharge": {
+    "标准交期": 0,
+    "加急(7天)": 0.15,
+    "急单(3天)": 0.30,
+    "特急(24小时)": 0.50
+  },
+  "minimum_order_value": 100
+}

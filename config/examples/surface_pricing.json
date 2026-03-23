@@ -1,0 +1,74 @@
+{
+  "description": "表面处理价格配置示例 - 实际价格请联系我们获取商业版",
+  "version": "1.0.0",
+  "surface_types": {
+    "阳极氧化": {
+      "base_price": 0.8,
+      "unit": "dm²",
+      "color_surcharge": {
+        "黑色": 0,
+        "银色": 0,
+        "彩色": 0.2
+      },
+      "minimum_charge": 50
+    },
+    "镀锌": {
+      "base_price": 0.6,
+      "unit": "dm²",
+      "types": {
+        "白锌": 0,
+        "彩锌": 0.1
+      },
+      "minimum_charge": 30
+    },
+    "镀镍": {
+      "base_price": 1.2,
+      "unit": "dm²",
+      "types": {
+        "电镀镍": 0,
+        "化学镍": 0.3
+      },
+      "minimum_charge": 50
+    },
+    "镀铬": {
+      "base_price": 1.5,
+      "unit": "dm²",
+      "minimum_charge": 80
+    },
+    "发黑": {
+      "base_price": 0.4,
+      "unit": "dm²",
+      "minimum_charge": 20
+    },
+    "喷砂": {
+      "base_price": 0.5,
+      "unit": "dm²",
+      "minimum_charge": 30
+    },
+    "抛光": {
+      "base_price": 0.8,
+      "unit": "dm²",
+      "minimum_charge": 40
+    },
+    "粉末喷涂": {
+      "base_price": 1.0,
+      "unit": "dm²",
+      "minimum_charge": 50
+    },
+    "电泳": {
+      "base_price": 1.2,
+      "unit": "dm²",
+      "minimum_charge": 60
+    },
+    "钝化": {
+      "base_price": 0.5,
+      "unit": "dm²",
+      "minimum_charge": 30
+    },
+    "本色": {
+      "base_price": 0,
+      "unit": "dm²",
+      "minimum_charge": 0
+    }
+  }
+}
