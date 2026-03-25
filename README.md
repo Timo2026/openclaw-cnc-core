@@ -112,6 +112,9 @@ MIT License - Free to use, modify, and commercialize
 
 ## 联系方式 | Contact
 
+- 🌐 官网 | Website: https://openclaw.ai/cnc
+- 📧 邮箱 | Email: miscdd@163.com
+- 💬 QQ: 849355070
 - GitHub: https://github.com/Timo2026/openclaw-cnc-core
 - Gitee: https://gitee.com/timo2026/openclaw-cnc-core
 - ClawHub: https://clawhub.ai/skills/openclaw-cnc-core
