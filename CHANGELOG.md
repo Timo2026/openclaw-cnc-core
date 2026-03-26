@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.2.0] - 2026-03-26
+
+### Security
+- 🛡️ Nginx反向代理防护
+- 🔒 限流保护 (20次/分钟/IP)
+- 📦 上传限制 (50MB)
+- 🔐 安全头注入 (X-Frame-Options, X-Content-Type-Options)
+
+### Changed
+- README添加在线演示地址
+- 演示地址改为80端口 (Nginx代理)
+
 ## [1.1.0] - 2026-03-26
 
 ### Added
