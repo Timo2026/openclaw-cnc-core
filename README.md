@@ -32,9 +32,26 @@ git clone https://github.com/Timo2026/openclaw-cnc-core.git
 # 安装依赖
 pip install -r requirements.txt
 
+# 配置API（支持多平台）
+export DASHSCOPE_API_KEY="your-key"  # 阿里云
+# 或 export OPENAI_API_KEY="your-key"  # OpenAI
+# 或使用本地模型，无需API Key
+
 # 运行示例
 python examples/quick_start.py
 ```
+
+### 支持的LLM平台
+
+| 平台 | 标识符 | 需要API Key | 说明 |
+|------|--------|-------------|------|
+| DashScope | `dashscope` | ✅ | 国内推荐 |
+| OpenAI | `openai` | ✅ | 国际推荐 |
+| DeepSeek | `deepseek` | ✅ | 国产，性价比高 |
+| 智谱AI | `zhipu` | ✅ | 国产，GLM系列 |
+| Ollama (本地) | `local` | ❌ | 完全本地，免费 |
+
+详见 [多平台适配指南](docs/PROVIDERS.md)
 
 ### 核心模块
 
