@@ -2,6 +2,29 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.1.0] - 2026-03-26
+
+### Added
+- 多平台API适配器 (`core/config.py`)
+- 支持 6 种 LLM 服务商
+- 多平台适配文档 (`docs/PROVIDERS.md`)
+- 本地模型支持 (Ollama)
+
+### Changed
+- 移除硬编码的 API 配置
+- 支持环境变量配置
+- 提高平台兼容性
+
+### Supported Providers
+| Provider | ID | API Key Required |
+|----------|-----|------------------|
+| DashScope | `dashscope` | Yes |
+| OpenAI | `openai` | Yes |
+| DeepSeek | `deepseek` | Yes |
+| 智谱AI | `zhipu` | Yes |
+| Moonshot | `moonshot` | Yes |
+| Ollama (本地) | `local` | No |
+
 ## [1.0.0] - 2026-03-26
 
 ### Added
